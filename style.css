@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* 0 padding and margin makes sure there are no spaces and margins between any of the elements */
+
+.Header{
+    color: white;
+    background-color: #1F2837;
+}
+
+.Headertop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    max-width: 444px;
+    margin-bottom: 20px;
+}
+
+/* what does max-width do? */
+
+/* max-width prevents the title and the secondary title from expanding when page is expanded */
+
+.secondary-title{
+    font-size: 18px;
+    color: #E5E7E8;
+    max-width: 444px;
+    margin-bottom: 20px;
+}
+
+.headerbody{
+    display: flex;
+    padding: 100px;
+    
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-around;
+}
+
+/* display flex makes sure the image is displayed in a row */
+
+img{
+
+    max-height: 250px;
+    margin-left: 44px;
+    
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding:5px 20px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.boxes{
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+   gap: 40px;
+   justify-content: center;
+   
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.section2{
+    margin: 50px;
+    text-align: center;
+    
+    
+}
+
+.section3{
+    background-color: #E5E7E8;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.quote{
+    font-size: 36px;
+    font-size: italic;
+    color: #1F2937;
+}
+
+.author{
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+
+/* what does align self do? */
+
+.section4{
+    padding: 55px 88px;
+    
+}
+
+
+.call-action{
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+    
+}
+
+.call-action-button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: flex end;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* what does align items flex end do? */
+
+.box{
+    width: 150px;
+   
+}
